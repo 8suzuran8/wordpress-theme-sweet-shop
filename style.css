@@ -42,7 +42,7 @@ main {
 
 article p {
 	text-align: left;
-    color: #4d4d4d;
+	color: #4d4d4d;
 }
 
 a {
@@ -70,7 +70,7 @@ aside a:visited {
 	}
 
 	body {
-        font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO","ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
+		font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO","ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
 	}
 
 	body.category {
@@ -116,8 +116,8 @@ aside a:visited {
 
 	body > header > section {
 		background: rgba(255, 230, 244, .5);
-        border: solid 2px #FFCCE9;
-        color: #FF80D6;
+		border: solid 2px #FFCCE9;
+		color: #FF80D6;
 		padding: .5em;
 		position: absolute;
 		right: 0;
@@ -171,90 +171,90 @@ aside a:visited {
 	}
 
 	body > nav {
-        position: absolute;
-    }
-    body > main > article > nav {
-        padding-top: 1em;
-    }
+		position: absolute;
+	}
+	body > main > article > nav {
+		padding-top: 1em;
+	}
 	body > nav,
-    body > main > article > nav {
-        font-size: 50%;
-    }
+	body > main > article > nav {
+		font-size: 50%;
+	}
 
 	body > nav > input {
-        display: none;
-    }
+		display: none;
+	}
 
 	body > nav > ul {
-        margin: 0;
-        padding: 2em 0 0 0;
-    }
+		margin: 0;
+		padding: 2em 0 0 0;
+	}
 
-    body > main > article > nav {
-        background: url(./repeat.png) repeat;
-    }
+	body > main > article > nav {
+		background: url(./repeat.png) repeat;
+	}
 
 	body > nav ul li::before,
 	body > main > article > nav ul li::before {
-        background: url(./repeat-x.svg) left -15px repeat-x;
-        top: 5em;
-    }
+		background: url(./repeat-x.svg) left -15px repeat-x;
+		top: 5em;
+	}
 
 	body > nav ul li::after,
 	body > main > article > nav ul li::after {
-        background: url(./repeat-x.svg) left top repeat-x;
-        top: .7em;
-    }
+		background: url(./repeat-x.svg) left top repeat-x;
+		top: .7em;
+	}
 
 	body > nav ul li::before,
 	body > nav ul li::after,
 	body > main > article > nav ul li::before,
 	body > main > article > nav ul li::after {
-        background-size: 15px;
-        content: "";
-        display: block;
-        height: 8px;
-        position: relative;
-        width: 18em;
-    }
+		background-size: 15px;
+		content: "";
+		display: block;
+		height: 8px;
+		position: relative;
+		width: 18em;
+	}
 
 	body > nav ul li,
 	body > main > article > nav ul li {
-        background: #FFE6F4;
-        border: none;
-        color: #BC5E00;
-        line-height: 3em;
-        margin: 0 1em 2em 0;
-        text-align: center;
-        width: 18em;
-    }
+		background: #FFE6F4;
+		border: none;
+		color: #BC5E00;
+		line-height: 3em;
+		margin: 0 1em 2em 0;
+		text-align: center;
+		width: 18em;
+	}
 
 	body > nav ul li:nth-child(2n - 1),
 	body > main > article > nav ul li:nth-child(2n - 1) {
-        transform: rotate(-3deg);
-    }
+		transform: rotate(-3deg);
+	}
 
 	body > nav ul li:nth-child(2n),
 	body > main > article > nav ul li:nth-child(2n) {
-        transform: rotate(3deg);
-    }
+		transform: rotate(3deg);
+	}
 
 	body > nav ul li a::before,
 	body > main > article > nav ul li a::before {
-        background: url(./no-repeat.svg) left top no-repeat;
-        display: inline-block;
-        content: "";
-        height: 17px;
-        width: 16px;
-    }
+		background: url(./no-repeat.svg) left top no-repeat;
+		display: inline-block;
+		content: "";
+		height: 17px;
+		width: 16px;
+	}
 
 	body > nav ul li a,
 	body > main > article > nav ul li a {
-        background: none;
-        border: none;
-        color: #BC5E00;
-        display: inline;
-    }
+		background: none;
+		border: none;
+		color: #BC5E00;
+		display: inline;
+	}
 
 	body > input:nth-child(1):checked ~ header > section > ul > li:nth-child(1) label,
 	body > input:nth-child(2):checked ~ header > section > ul > li:nth-child(2) label,
@@ -263,37 +263,37 @@ aside a:visited {
 		cursor: default;
 	}
 
-    body > header::before {
-        background: url(./repeat-x.svg) left top repeat-x, url(./repeat-x.svg) left -35px repeat-x;
-        content: "";
-        display: block;
-        height: 35px;
-        width: 100%;
-    }
+	body > header::before {
+		background: url(./repeat-x.svg) left top repeat-x, url(./repeat-x.svg) left -35px repeat-x;
+		content: "";
+		display: block;
+		height: 35px;
+		width: 100%;
+	}
 
-    body > header::after {
-        background: url(./header-photo.svg) left top no-repeat;
-        background-size: contain;
-        content: "";
-        display: block;
-        height: 35vw;
-        max-height: 48vh;
-        max-width: 80vh;
-        position: absolute;
-        right: 2em;
-        top: 4em;
-        width: 50vw;
-    }
+	body > header::after {
+		background: url(./header-photo.svg) left top no-repeat;
+		background-size: contain;
+		content: "";
+		display: block;
+		height: 35vw;
+		max-height: 48vh;
+		max-width: 80vh;
+		position: absolute;
+		right: 2em;
+		top: 4em;
+		width: 50vw;
+	}
 
 	body > header {
-        background: url(./header-no-repeat1.svg) -75px -200px no-repeat, url(./header-no-repeat2.svg) 70vw 200px no-repeat, url(./repeat.png) repeat;
-        border-bottom: solid 3px #FFCCE9;
+		background: url(./header-no-repeat1.svg) -75px -200px no-repeat, url(./header-no-repeat2.svg) 70vw 200px no-repeat, url(./repeat.png) repeat;
+		border-bottom: solid 3px #FFCCE9;
 		color: #eee;
 		font-size: 1em;
-        height: 60vh;
+		height: 60vh;
 		margin: 0 0 1em 0;
 		padding: 0;
-        position: relative;
+		position: relative;
 		text-align: left;
 	}
 
@@ -307,7 +307,7 @@ aside a:visited {
 	}
 
 	body > header h1 {
-        color: #BC5E00;
+		color: #BC5E00;
 		font-size: 1em;
 		min-height: 2em;
 		left: 0;
@@ -321,38 +321,38 @@ aside a:visited {
 		width: 100%;
 	}
 
-    body > header p::before,
-    body > header p::after {
-        background: url(./no-repeat.svg) left -17px no-repeat;
-        content: "";
-        display: block;
-        height: 14px;
-        position: absolute;
-        width: 16px;
-    }
+	body > header p::before,
+	body > header p::after {
+		background: url(./no-repeat.svg) left -17px no-repeat;
+		content: "";
+		display: block;
+		height: 14px;
+		position: absolute;
+		width: 16px;
+	}
 
-    body > header p::before {
-        left: 5px;
-        top: -7px;
-    }
+	body > header p::before {
+		left: 5px;
+		top: -7px;
+	}
 
-    body > header p::after {
-        right: -5px;
-        top: -7px;
-    }
+	body > header p::after {
+		right: -5px;
+		top: -7px;
+	}
 
 	body > header p {
-        background: #FFE6F4;
-        border: solid 2px #FFCCE9;
-        color: #BC5E00;
-        display: inline-block;
-        font-size: 200%;
-        font-weight: bold;
-        margin: 1em 0 0 3em;
-        padding: 1em .5em;
-        position: relative;
+		background: #FFE6F4;
+		border: solid 2px #FFCCE9;
+		color: #BC5E00;
+		display: inline-block;
+		font-size: 200%;
+		font-weight: bold;
+		margin: 1em 0 0 3em;
+		padding: 1em .5em;
+		position: relative;
 		text-align: center;
-        transform: rotate(-5deg);
+		transform: rotate(-5deg);
 	}
 
 	body > header p img {
@@ -365,28 +365,28 @@ aside a:visited {
 		top: 0;
 	}
 
-    body > header > a::after {
-        background: url(./no-repeat.svg) left -85px no-repeat;
-        content: "";
-        display: inline-block;
-        height: 3.2em;
-        left: 1em;
-        position: absolute;
-        top: 1em;
-        transform: rotate(180deg);
-        width: 2.8em;
-        z-index: 2;
-    }
+	body > header > a::after {
+		background: url(./no-repeat.svg) left -85px no-repeat;
+		content: "";
+		display: inline-block;
+		height: 3.2em;
+		left: 1em;
+		position: absolute;
+		top: 1em;
+		transform: rotate(180deg);
+		width: 2.8em;
+		z-index: 2;
+	}
 
-    body > header > a {
-        color: #FF80D6;
-        display: inline-block;
-        height: 5em;
-        position: absolute;
-        right: 4em;
-        top: 3em;
-        z-index: 2;
-    }
+	body > header > a {
+		color: #FF80D6;
+		display: inline-block;
+		height: 5em;
+		position: absolute;
+		right: 4em;
+		top: 3em;
+		z-index: 2;
+	}
 
 	nav > div .children,
 	nav > div .sub-menu {
@@ -397,8 +397,8 @@ aside a:visited {
 
 	body > ol {
 		border: dashed 3px #FFCCE9;
-        border-left: none;
-        border-right: none;
+		border-left: none;
+		border-right: none;
 		list-style: none;
 		margin: 1em 2em 1em 2em;
 		overflow: hidden;
@@ -406,9 +406,9 @@ aside a:visited {
 		white-space: nowrap;
 	}
 
-    body > ol * {
-        color: #BC5E00;
-    }
+	body > ol * {
+		color: #BC5E00;
+	}
 
 	body > ol li {
 		display: inline-block;
@@ -420,12 +420,12 @@ aside a:visited {
 	}
 
 	body > ol li:not(:last-child):after {
-        background: url(no-repeat.svg) left -1.7em no-repeat;
-        background-size: 8em;
+		background: url(no-repeat.svg) left -1.7em no-repeat;
+		background-size: 8em;
 		content: '';
-        display: inline-block;
-        height: .6em;
-        width: 1.5em;
+		display: inline-block;
+		height: .6em;
+		width: 1.5em;
 	}
 
 	body > ol a {
@@ -476,7 +476,7 @@ aside a:visited {
 	}
 
 	body > main > article > * {
-	    padding: 0 2em;
+		padding: 0 2em;
 	}
 
 	body > main > article > ul {
@@ -531,31 +531,31 @@ aside a:visited {
 	}
 
 	body > main article h1 {
-        background-color: #FF80D6;
-        border-radius: .5em;
-        color: #fff;
-    }
+		background-color: #FF80D6;
+		border-radius: .5em;
+		color: #fff;
+	}
 	body > main article h2::after,
 	body > main article h3::after,
 	body > main article h4::after,
 	body > main article h5::after,
 	body > main article h6::after {
-        background: url(repeat-x.svg) left -135px repeat-x;
-        bottom: -.3em;
-        content: "";
-        height: 8px;
-        left: 0;
-        position: absolute;
-        width: 100%;
-    }
+		background: url(repeat-x.svg) left -135px repeat-x;
+		bottom: -.3em;
+		content: "";
+		height: 8px;
+		left: 0;
+		position: absolute;
+		width: 100%;
+	}
 	body > main article h2,
 	body > main article h3,
 	body > main article h4,
 	body > main article h5,
 	body > main article h6 {
-        color: #FF80D6;
+		color: #FF80D6;
 		padding: .3em;
-        position: relative;
+		position: relative;
 	}
 
 	body > main article table {
@@ -668,8 +668,8 @@ aside a:visited {
 	}
 
 	body.category > header,
-    body.category > nav,
-    body.category > aside,
+	body.category > nav,
+	body.category > aside,
 	body.category > ol,
 	body.category > main > article > p,
 	body.category > main > article > h1,
@@ -922,15 +922,15 @@ aside a:visited {
 	}
 
 	body > footer::after {
-        background: url(./repeat-x.svg) left -70px repeat-x, url(./repeat-x.svg) left -105px repeat-x;
-        content: "";
-        display: block;
-        height: 31px;
-        width: 100%;
-    }
+		background: url(./repeat-x.svg) left -70px repeat-x, url(./repeat-x.svg) left -105px repeat-x;
+		content: "";
+		display: block;
+		height: 31px;
+		width: 100%;
+	}
 	body > footer {
-        background: url(./repeat.png) repeat;
-        border-top: solid 2px #FFCCE9;
+		background: url(./repeat.png) repeat;
+		border-top: solid 2px #FFCCE9;
 		color: #BC5E00;
 		margin-top: 1em;
 		text-align: center;
@@ -951,13 +951,13 @@ aside a:visited {
 
 	body > footer > a {
 		background-color: #FFE6F4;
-        border: solid 2px #FF80D6;
+		border: solid 2px #FF80D6;
 		border-radius: .5em;
 		bottom: 2.4em;
 		color: #fff;
 		display: inline-block;
 		margin-right: 0;
-        opacity: .5;
+		opacity: .5;
 		padding: .5em;
 		position: fixed;
 		right: 1em;
@@ -985,7 +985,7 @@ aside a:visited {
 
 	body > footer li {
 		display: inline-block;
-        }
+		}
 
 	body > footer .widget {
 		border-bottom: solid 1px #888;
@@ -1029,24 +1029,24 @@ aside a:visited {
 }
 
 @media screen and (max-width: 899px) {
-    body > header {
-        height: auto;
-        margin-bottom: 0;
-        padding-bottom: 1em;
-        text-align: center;
-    }
-    body > header::after {
-        height: 31vw;
-        left: auto;
-        margin: 3em auto auto auto;
-        position: static;
-        width: 51vw;
-    }
+	body > header {
+		height: auto;
+		margin-bottom: 0;
+		padding-bottom: 1em;
+		text-align: center;
+	}
+	body > header::after {
+		height: 31vw;
+		left: auto;
+		margin: 3em auto auto auto;
+		position: static;
+		width: 51vw;
+	}
 
-    body > header p {
-        margin: auto;
-        position: static;
-    }
+	body > header p {
+		margin: auto;
+		position: static;
+	}
 
 	body.use-header-image > header h1 {
 		left: -.5em;
@@ -1064,7 +1064,7 @@ aside a:visited {
 
 	body > nav h2 label {
 		background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOSAxOSIgd2lkdGg9IjE5IiBoZWlnaHQ9IjE5Ij48cmVjdCB4PSIwIiB5PSIxIiByeD0iMiIgcnk9IjIiIHdpZHRoPSIxOSIgaGVpZ2h0PSIzIiBzdHJva2U9IndoaXRlIiBmaWxsPSJ3aGl0ZSIvPjxyZWN0IHg9IjAiIHk9IjgiIHJ4PSIyIiByeT0iMiIgd2lkdGg9IjE5IiBoZWlnaHQ9IjMiIHN0cm9rZT0id2hpdGUiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMCIgeT0iMTUiIHJ4PSIyIiByeT0iMiIgd2lkdGg9IjE5IiBoZWlnaHQ9IjMiIHN0cm9rZT0id2hpdGUiIGZpbGw9IndoaXRlIi8+PC9zdmc+) center bottom no-repeat;
-        color: #FF80D6;
+		color: #FF80D6;
 		display: inline-block;
 		font-size: 10px;
 		height: 3.5em;
@@ -1121,10 +1121,10 @@ aside a:visited {
 		line-height: 2em;
 	}
 
-    body > nav ul li:nth-child(n) {
-        margin-bottom: 1em;
-        transform: none;
-    }
+	body > nav ul li:nth-child(n) {
+		margin-bottom: 1em;
+		transform: none;
+	}
 
 	body > nav li:not(:last-child) {
 		margin-bottom: .5em;
@@ -1142,7 +1142,7 @@ aside a:visited {
 		right: 1em;
 		text-align: right;
 		top: 8.5em;
-    }
+	}
 
 	body > main,
 	body.category main {
@@ -1157,21 +1157,21 @@ aside a:visited {
 
 @media screen and (min-width: 900px) {
 	.use-widget > main {
-        border-radius: .5em;
+		border-radius: .5em;
 		margin: 1em;
-        padding-top: 1em;
+		padding-top: 1em;
 		width: calc(100% - 23em);
-    }
+	}
 	.use-widget > ol,
 	.use-widget > footer {
 		margin: 1em auto 1em 0;
-        padding-top: 1em;
+		padding-top: 1em;
 		width: calc(100% - 20em);
 	}
 	.use-widget > footer {
-        margin-bottom: 0;
-        width: 100%;
-    }
+		margin-bottom: 0;
+		width: 100%;
+	}
 
 	body {
 	}
@@ -1181,7 +1181,7 @@ aside a:visited {
 	}
 
 	body > nav {
-        left: 5em;
+		left: 5em;
 		margin: 1em 0 .5em 0;
 	}
 
@@ -1227,12 +1227,12 @@ aside a:visited {
 	}
 
 	body > nav {
-        top: 27em;
-        width: 40vw;
-    }
+		top: 27em;
+		width: 40vw;
+	}
 	body > nav ul {
-        text-align: left;
-    }
+		text-align: left;
+	}
 
 	body > main > article img {
 		margin: 1em auto 1em 0;
@@ -1345,7 +1345,7 @@ aside a:visited {
 	body > aside {
 		position: absolute;
 		/* left: calc( ( 100% - 900px ) / 2 + ( 900px - 305px ) ); */
-        right: 1em;
+		right: 1em;
 		text-align: center;
 		top: calc( 500px + 46px + 1em );
 		width: 19em;
