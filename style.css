@@ -73,7 +73,7 @@ aside a:visited {
         font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO","ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
 	}
 
-	body.foriframe {
+	body.category {
 		background-color: #ffffff;
 	}
 
@@ -484,15 +484,15 @@ aside a:visited {
 	}
 
 	body > main > article > ul > li[itemtype="http://schema.org/WebPage"] {
-		border: solid 1px #888;
+		border: solid 1px #FFCCE9;
 		border-radius: .5em;
 		margin-bottom: 1em;
 	}
 
 	body > main > article > ul > li[itemtype="http://schema.org/WebPage"] h2 {
-		background-color: #f3f3f3;
+		background-color: #FFE6F4;
 		border: none;
-		border-bottom: solid 1px #888;
+		border-bottom: solid 1px #FFCCE9;
 		border-top-left-radius: .5em;
 		border-top-right-radius: .5em;
 		font-size: 1em;
@@ -662,32 +662,42 @@ aside a:visited {
 
 	iframe.foriframe {
 		border: none;
-		height: 0;
 		margin: 0;
 		padding-bottom: 1em;
 		width: 90%;
 	}
 
-	body.foriframe {
+	body.category > header,
+    body.category > nav,
+    body.category > aside,
+	body.category > ol,
+	body.category > main > article > p,
+	body.category > main > article > h1,
+	body.category > main > article > form,
+	body.category >footer {
+		display: none;
+	}
+
+	body.category {
 		padding-top: 0;
 	}
 
-	body.foriframe main {
+	body.category main {
 		border: none;
 		margin-bottom: 0;
 		width: 100%;
 	}
 
-	body.foriframe > main > article > ul {
+	body.category > main > article > ul {
 		margin: 0;
 		padding: 0;
 	}
 
-	body.foriframe > main > article > ul li:last-child {
+	body.category > main > article > ul li:last-child {
 		margin-bottom: 0;
 	}
 
-	body.foriframe #comments {
+	body.category #comments {
 		border: none;
 		margin: 0;
 		padding: 0 1em 0 1em;
@@ -1135,7 +1145,7 @@ aside a:visited {
     }
 
 	body > main,
-	body.foriframe main {
+	body.category main {
 		margin-bottom: 1em;
 	}
 
