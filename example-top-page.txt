@@ -1,0 +1,14 @@
+<h1>Stay Hungry!!</h1>
+
+<p>Our school are working in education for especially extend the children's creativity.
+To cherish the flow of 「Wonder」「search」「use」, As you become a person who can continue to own growth also become a member of society I am working hard.
+「Always there at the Hungry!!」</p>
+
+<h2>news</h2>
+
+<script>
+document.write( '<iframe src="//domain.com/category/news/" class="foriframe" scrolling="no"></iframe>' );
+</script>
+<noscript>
+<a href="//192.168.33.10/tests/wordpress/category/news/">news list</a>
+</noscript>
